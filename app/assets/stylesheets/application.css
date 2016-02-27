@@ -21,9 +21,60 @@
 	padding: 10px 20px;
 } 
 
-a:hover {
-    color: black;
-}
+/*a:hover {*/
+/*    color: black;*/
+/*}*/
+
+/*a.nice-link {*/
+
+/*    @color: #168dff;*/
+    
+/*    @hover-color: lighten(spin(saturate(@color, 80%), -10), 8%);*/
+
+/*    position: relative;*/
+/*    color:  @color;*/
+/*    h1 &:after {*/
+/*        border-bottom: 1px solid @hover-color;*/
+/*    }*/
+
+/*    &:after {*/
+/*        text-align: justify;*/
+/*        display: inline-block;*/
+/*        content: attr(data-text);*/
+/*        position: absolute;*/
+/*        left: 0;*/
+/*        top: 0;*/
+/*        white-space: nowrap;*/
+/*        overflow: hidden;*/
+/*        color: @hover-color;*/
+/*        min-height: 100%;*/
+/*        width: 0;*/
+/*        max-width: 100%;*/
+/*        -moz-transition: .3s;*/
+/*        -o-transition: .3s;*/
+/*        -webkit-transition: .3s;*/
+/*        transition: .3s;*/
+/*    }*/
+
+/*    &:hover {*/
+/*        color: @color;*/
+
+/*        &:after {*/
+/*            width: 100%;*/
+/*        }*/
+/*    }*/
+/*}*/
+/*a.nice-link{*/
+/*    color: black;*/
+/*}*/
+
+/*a {*/
+/*    text-decoration: none;*/
+
+/*    &:hover {*/
+/*        color: #90bbff;*/
+/*    }*/
+/*}*/
 
 .bottomlink a:hover{
 	background: yellow;

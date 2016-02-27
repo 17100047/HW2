@@ -101,6 +101,13 @@ class MoviesController < ApplicationController
 
   def updateif
     @movie = Movie.find_by_title(params[:oldmovie][:title])
+
+    if params[:movie][:title] != ""
+      #nothing to see
+    else
+      params[:movie][:title] = params[:oldmovie][:title]
+    end
+    
     if @movie
       x = @movie.title
       @movie.update_attributes!(movie_params)

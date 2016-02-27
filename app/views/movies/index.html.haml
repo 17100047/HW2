@@ -24,7 +24,7 @@
         %td= link_to "More about #{movie.title}", movie_path(movie)
 
 .bottomlink
-  = link_to 'Add new movie', new_movie_path
+  = link_to 'Add new movie', new_movie_path, {:class=> "nice-link"}
   = link_to 'Update Movie', movies_updatebysearch_path
   = link_to 'Delete Movie using Name', movies_deletebyname_path
   = link_to 'Delete Movie using Rating', movies_deletebyrating_path
