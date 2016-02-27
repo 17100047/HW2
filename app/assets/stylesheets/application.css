@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+.bottomlink {
+  margin: 12px;
+}
+.bottomlink a {
+	text-decoration: none;
+	padding: 10px 20px;
+} 
+
+a:hover {
+    color: black;
+}
+
+.bottomlink a:hover{
+	background: yellow;
+	transition: background .5s;
+}
+
+table#movies th.hilite {
+  font-style: italic;
+  background-color: yellow;
+}
